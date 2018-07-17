@@ -1,0 +1,16 @@
+def time_of_day (time)
+if time == 7
+    puts "Get up"
+elsif time > 7 && time < 8
+    puts "Eat breakfast and make coffee"
+elsif time > 8 && time < 12
+    puts "Work"
+elsif time > 12 && time < 13
+  puts "Eat lunch"
+elsif time >13 && time < 22
+  puts "Do whatever"
+else
+    puts "Sleep"
+end
+end
+time_of_day(18)
